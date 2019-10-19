@@ -12,6 +12,7 @@ pytest-cov = "*"
 pre-commit = "*"
 sphinx = "*"
 bpython = "*"
+pytest-custom-exit-code = "*"
 
 [packages]
 daemonize = "*"

@@ -27,7 +27,7 @@ repos:
     name: pytest
     stages: [commit]
     language: system
-    entry: pipenv run pytest
+    entry: pipenv run pytest --suppress-no-test-exit-code
     types: [python]
 
   # - id: pytest-cov
