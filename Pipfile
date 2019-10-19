@@ -11,8 +11,14 @@ pytest = "*"
 pytest-cov = "*"
 pre-commit = "*"
 sphinx = "*"
+bpython = "*"
 
 [packages]
+daemonize = "*"
+click = "*"
+sqlalchemy = "*"
+aiogram = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
